@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suporte</title>
+
+ 
+  <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="suporte.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body >
+
+ <nav class="navbar">
+      <link rel="stylesheet" href="style.css">
+  <div class="navbar-container">
+    <a href="PRINCIPAL.html" class="brand">MINECRAFT </a>
+    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    <div class="navbar-links" id="navbar-links">
+      <ul>
+        <li><a href="creepypastas.html" target="_blank">Creepypastas</a></li>
+        <li><a href="modos.html" target="_blank">Modos</a></li>
+        <li><a href="jogadores.html" target="_blank">Jogadores lendários</a></li>
+        <li><a href="servidores.html" target="_blank">Servidores</a></li>
+        <li><a href="historia.html" target="_blank">História</a></li>
+        <li><a href="new.html" target="_blank">Curiosidades</a></li>
+        <li><a href="suporte.html" target="_blank">Suporte</a></li>
+        <li><a href="PRINCIPAL.html" target="_blank"></a></li>
+        <li class="dropdown"> </li>
+        </li>
+      </ul>
+      <form class="search-form">
+        <input type="text" placeholder="Pesquisar">
+        <button type="submit">Procurar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+  <div class="container py-5" style="margin-top: 70px;">
+    <div class="row justify-content-center">
+     
+      <div class="d-none d-md-block col-md-2"></div>
+
+      <div class="col-12 col-md-8">
+        <div class="card shadow-lg p-4">
+          <h3 class="text-center mb-4">Formulário de Contato</h3>
+          <p class="text-center">Deixe sua Sugestão ou Avaliação</p>
+          <form>
+            
+          
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome (opcional)</label>
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+            </div>
+
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail (opcional)</label>
+              <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com">
+            </div>
+
+           
+            <div class="mb-3">
+              <label for="nota" class="form-label">Nota</label>
+              <select class="form-select" id="nota">
+                <option selected>Escolha uma nota</option>
+                <option value="1">1 - Péssimo</option>
+                <option value="2">2 - Ruim</option>
+                <option value="3">3 - Regular</option>
+                <option value="4">4 - Bom</option>
+                <option value="5">5 - Excelente</option>
+              </select>
+            </div>
+
+           
+            <div class="mb-3">
+              <label for="sugestao" class="form-label">Sua sugestão ou comentário</label>
+              <textarea class="form-control" id="sugestao" rows="3" placeholder="Escreva aqui..."></textarea>
+            </div>
+
+           
+            <div class="d-grid">
+              <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+      
+      <div class="d-none d-md-block col-md-2"></div>
+      
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <script>
+    document.getElementById("enviarBtn").addEventListener("click", function () {
+      const nota = document.getElementById("nota").value;
+      const sugestao = document.getElementById("sugestao").value;
+
+      if (!nota || !sugestao.trim()) {
+        alert("Por favor, preencha todos os campos obrigatórios.");
+        return;
+      }
+
+      alert("Obrigado por sua avaliação!");
+      document.getElementById("formSugestao").reset();
+    });
+  </script>
+
+</body>
+</html>

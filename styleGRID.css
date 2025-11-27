@@ -1,0 +1,53 @@
+
+#container{
+  display: grid;
+  margin-top:00px;
+   justify-content: center;
+   gap: 40px;
+   position: relative;
+   left: 20px;
+   
+
+
+}
+
+.item1{
+ 
+grid-row: 2;
+}
+
+.item2{
+
+grid-row: 1;
+}
+
+.item3{
+  
+  grid-row: 1;
+}
+
+.item4{
+
+ grid-row: 2;
+  
+}
+
+.item5{
+
+  grid-row: 1;
+}
+.item6{
+
+  grid-row: 1;
+}
+
+
+.igual{
+  margin-top: 100px;
+display: grid;
+  grid-template-columns: 3fr 3fr;
+ gap: 10px;
+}
+
+
+

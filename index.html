@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minecraft</title>
+  
+  <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styleGRID.css">
+  
+  </head>
+
+<body>
+
+  <nav class="menu-principal">
+    <div class="menu-principal-container">
+      <a href="PRINCIPAL.html" class="brand">MINECRAFT </a>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+      <div class="menu-principal-links" id="menu-principal-links">
+        <ul>
+          <li><a href="creepypastas.html" target="_blank">Creepypastas</a></li>
+          <li><a href="modos.html" target="_blank">Modos</a></li>
+          <li><a href="jogadores.html" target="_blank">Jogadores lendários</a></li>
+          <li><a href="servidores.html" target="_blank">Servidores</a></li>
+          <li><a href="historia.html" target="_blank">História</a></li>
+          <li><a href="new.html" target="_blank">Curiosidades</a></li>
+          <li><a href="suporte.html" target="_blank">Suporte</a></li>
+          <li><a href="PRINCIPAL.html" target="_blank"></a></li>
+          <li class="dropdown"> </li>
+        </ul>
+        <form class="search-form">
+          <input type="text" placeholder="Pesquisar">
+          <button type="submit">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="igual">
+    <h2 class="h2T">UPDATES RECENTES</h2>
+    <h3 class="h3T">TEMAS</h3>
+    
+    <script>
+      document.getElementById("menu-toggle").addEventListener("click", () => {
+        document.getElementById("navbar-links").classList.toggle("active");
+      });
+    </script>
+
+    <div class="carousel">
+      <div class="slides">
+        <div class="slide active">
+          <img src="img/NETHER UPDATE.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="img/WILD UPDATE.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="img/TRAILS UPDATE.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+          <img src="img/TRICKY UPDATE.png" alt="Slide 4">
+        </div>
+        <div class="slide">
+          <img src="img/CHASETHESKIES UPDATE.webp" alt="Slide 5">
+        </div>
+      </div>
+      <button class="nav prev">&#10094;</button>
+      <button class="nav next">&#10095;</button>
+      <div class="indicators">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+
+    <script src="carrousel.js"></script>
+
+
+    <div id="container">
+      <div class="item1">
+
+      </div>
+
+      <div class="cards-container">
+        <div class="card3">
+          <div class="letras">
+            <h3 class="titulo3">Creepypastas</h3>
+          </div>
+          <img src="imgCards/2013-02-06-minecraft-herobrine-planetminecraft.avif" class="herobrine" alt="Herobrine" />
+          <div class="corpo3">
+            <p class="texto3"><b>Herobrine, talvez a lenda mais famosa da história dos jogos.</b></p>
+            <a href="creepypastas.html" class="btn btn-primary" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item6">
+
+      </div>
+
+      <div class="item1">
+        <div class="card3">
+          <h3 class="titulo3">Curiosidades</h3>
+          <img src="imgCards/achieve-any-vision-you-have-for-your-minceraft-world.png" class="forma" alt="forma" />
+          <div class="corpo3">
+            <p class="texto3"><b>Curiosidades para pessoas curiosas</b></p>
+            <a href="new.html" class="btn btn-primary" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="item2">
+        <div class="card3">
+          <h3 class="titulo3">Modos de Jogo</h3>
+          <img src="imgCards/minecraft7-1680628566629.png" class
+="forma" alt="forma" />
+          <div class="corpo3">
+            <p class="texto3"><b>Modos de jogo, tutorial e manual de como jogar (para noobs).</b></p>
+            <a href="modos.html" class="btn btn-primary" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="item3">
+        <div class="card3">
+          <h3 class="titulo3"> Lendas</h3>
+          <img src="imgCards/desktop-wallpa.jpg" class="forma" alt="forma" />
+          <div class="corpo3">
+            <p class="texto3"><b> Os Jogadores mais conhecidos e marcantes de toda a história.</b></p>
+            <a href="jogadores.html" class="btn btn-primary" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item4">
+        <div class="card3">
+          <h3 class="titulo3">Servidores</h3>
+          <img src="imgCards/large_header_cover_M_Cjava_79f3b01aed.webp" class="forma" alt="forma" />
+          <div class="corpo3">
+            <p class="texto3"><b> Os diversos servidores do jogo, curiosidades e características.</b></p>
+            <a href="servidores.html" class="btn btn-primary" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item5">
+        <div class="card3">
+          <h3 class="titulo3">História</h3>
+          <img src="imgCards/maxresdefault (2).jpg" class="forma" alt="forma" />
+          <div class="corpo3">
+            <p class="texto3"><b> a grande história do jogo mais famoso de todos os tempos.</b></p>
+            <a href="historia.html" class="btn btn-primary" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div> </div> <script>
+    function toggleMenu() {
+      const searchContainer = document.getElementById("searchContainer");
+      searchContainer.style.display =
+        searchContainer.style.display === "none" ||
+          !searchContainer.style.display
+          ? "flex"
+          : "none";
+    }
+  </script>
+
+  <div class="img">
+    <img src="img/Homepage_Hero-A-1920_Image-ID_2560x932_01.jpg" alt="">
+  </div>
+
+
+  <footer class="rodape">
+    <div class="navbar-container">
+      <h4>Desenvolvido por João Camargo e Rafael Ferraz | Direitos reservados ao ifsp pep | ©2025-2025</h4>
+    </div>
+  </footer>
+
+  
+  <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
